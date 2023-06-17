@@ -7,15 +7,15 @@
 
 /* Global styles */
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
   background-color: #f9f9f9;
 }
 
 .container {
   max-width: 900px;
-  margin: 0 auto;
-  padding: 0px 30px; 
+  margin: auto;
+  padding: 0px 70px; 
 }
 
 /* Header */
@@ -56,13 +56,13 @@ nav ul li a:hover {
 }
 
 #home h1 {
-  font-size: 48px;
+  font-size: 44px;
   margin-bottom: 10px;
 }
 
 #home h2 {
   font-size: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #home p {
@@ -79,7 +79,7 @@ nav ul li a:hover {
   font-size: 16px;
   text-decoration: none;
   transition: background-color 0.3s;
-  margin-top: 30px; 
+  margin-top: 10px; 
 }
 
 #home .btn:hover {
@@ -91,7 +91,7 @@ nav ul li a:hover {
   background-color: #333;
   color: #fff;
   text-align: left;
-  padding: 40px 0; 
+  padding: 20px 0; 
 }
 
 .section h2 {

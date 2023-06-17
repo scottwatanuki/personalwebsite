@@ -1,42 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Scott Watanuki</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    
-    <body>
-        <div id="main">
-            <div class="header">
-                <div class="header-logo">Welcome!</div>
-                <ul class="header-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <!-- End #header -->
-            <div id="content">
-                <div id="lead-content">
-                    <h1>Scott Watanuki</h1>
-                    <h2>Software Engineer</h2>
-                    <a href="Scott_Watanuki_Resume.pdf" class="btn-rounded-white">Resume</a>
-                </div>
-                <!-- End #lead-content -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scott Watanuki</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Work Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-                <div id="about">
-                    <h2>About Me</h2>
-                    <p>I am a software engineer with a passion for learning and creating. I am currently a senior at the University of Washington studying Computer Science. I am interested in full-stack development, machine learning, and data science. I am currently looking for full-time opportunities starting in June 2023.</p>
-            </div>
-            <div id="footer">
-                <p>Copyright &copy; Scott Watanuki 2023</p>
-            </div>
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>Scott Watanuki</h1>
+        <h2>Student & Software Engineer</h2>
+        <p>Welcome! I'm a tech-driven student and software engineer, empowering change through technology for a better world.</p>
+        <a href="files/Scott_Watanuki_Resume.pdf" class="btn">View Resume</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="experience">
+          <p>I was raised in Honolulu, HI, and I am currently located in Atlanta, GA, attending the Georgia Institute of Technology.</p>
+          <p>My interests lie in backend development and machine learning.</p>
+          <p>During my free time, I love going to the gym, reading books, traveling to new places, building new things, and meeting new people!</p>
         </div>
-    </body>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="experience">
+          <h3>Georgia Institute of Technology - B.S. in Computer Science</h3>
+          <p>Duration: August 2022 - May 2025</p>
+          <p>Concentration: Artificial Intelligence, Information Internetworks</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Work Experience</h2>
+        <div class="experience">
+          <h3>GL Navigation | Software Engineer Intern</h3>
+          <p>Core Engineering Team - Backend, Machine Learning</p>
+          <p>Duration: November 2022 - Present</p>
+          <p>Skills: Python, TensorFlow, OpenCV, Matplotlib, AWS</p>
+        </div>
+        <div class="experience">
+          <h3>GL Navigation | Software Engineer Intern</h3>
+          <p>Core Engineering Team - Backend, Machine Learning</p>
+          <p>Duration: June 2022 - August 2022</p>
+          <p>Skills: Python, JavaScript, JSON, AWS</p>
+        </div>
+        <div class="experience">
+          <h3><a href="https://github.com/scottwatanuki/SixVision">'Iolani School | Machine Learning Engineer</a></h3>
+          <p>John & Violet Kay Summer Research Fellowship - A.I. Model to Diagnose Cataracts</p>
+          <p>Duration: April 2021 - October 2021</p>
+          <p>Skills: Python, TensorFlow, Keras, Matplotlib</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="experience">
+          <h3><a href="https://github.com/scottwatanuki/LifeStyleX">LifeStyleX</a></h3>
+          <p>LifeStyleX is a command-line tool that creates a personalized lifestyle schedule by determining a user's sleep chronotype.</p>
+          <p>Tech Stack: C, Git, GitHub</p>
+        </div>
+        <div class="experience">
+          <h3><a href="https://github.com/scottwatanuki/PlanNEXT">PlanNEXT</a></h3>
+          <p>PlanNEXT is a command-line tool that allows students to create an optimized and personalized schedule based on various factors such as wake-up and sleep time, school schedule, and academic workload.</p>
+          <p>Tech Stack: C, Git, GitHub</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container" id="contact-container">
+        <h2>Contact</h2>
+        <p>You can reach me at scottwatanuki@gatech.edu</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/scottwatanuki/" target="_blank" class="linkedin-icon"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+          <a href="https://github.com/scottwatanuki" target="_blank" class="github-icon"><img src="images/github-mark.png" alt="GitHub"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Scott Watanuki. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
 </html>

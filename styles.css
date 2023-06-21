@@ -20,8 +20,12 @@ body {
 
 /* Header */
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background-color: #222;
   padding: 20px 0;
+  z-index: 100;
 }
 
 nav ul {
@@ -48,7 +52,7 @@ nav ul li a:hover {
 /* Homepage */
 #home {
   text-align: center;
-  padding: 40px 50px;
+  padding: 120px 50px 40px; /* Adjusted padding: top increased to accommodate the fixed header */
   background-color: #194d77;
   background-size: cover;
   background-position: center;
@@ -88,8 +92,8 @@ nav ul li a:hover {
 
 /* Other sections */
 .section {
-  background-color: #333;
-  color: #fff;
+  background-color: #c2bebe;
+  color: #000000;
   text-align: left;
   padding: 20px 0; 
 }

@@ -53,7 +53,7 @@ nav ul li a:hover {
 #home {
   text-align: center;
   padding: 120px 50px 40px; /* Adjusted padding: top increased to accommodate the fixed header */
-  background-color: #194d77;
+  background-color: #1e5e92;
   background-size: cover;
   background-position: center;
   color: whitesmoke;
@@ -92,7 +92,7 @@ nav ul li a:hover {
 
 /* Other sections */
 .section {
-  background-color: #c2bebe;
+  background-color: #f1f1f1;
   color: #000000;
   text-align: left;
   padding: 20px 0; 
